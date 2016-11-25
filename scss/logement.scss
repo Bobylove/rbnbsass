@@ -1,0 +1,11 @@
+.logements {
+    display: inline-block;
+    margin-top: 1.875em;
+    margin-left: $margin-left-img;
+    font-family: $primary-font;
+}
+.picLogement {
+	font-family: $primary-font;
+	float: left;
+	margin-right: $pic-margin;
+}

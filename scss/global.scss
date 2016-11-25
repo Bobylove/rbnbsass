@@ -1,0 +1,125 @@
+@import 'variables.scss';
+@import 'logement.scss';
+@import 'experiences.scss';
+@import 'login.scss';
+@import 'footer.scss';
+
+.firstRelative {
+    position: absolute;
+}
+
+.slide {
+    float: right;
+    width: 100%;
+    height: 43.750em; 
+}
+
+.titreHead {
+
+    .firstTitle{
+        
+        font-family: $h1-font;
+        color: $h1-color;
+        font-size: $h1-size;
+
+    }
+    margin-left: 13em;
+    width: 80em;
+    
+}
+.secondaryTitle {
+
+    font-size:  $h4-font;
+    color: $h4-color;
+    font-weight: $h4-font-weight;
+    font-size: 1.813em;
+}
+.borderNone {
+    border:none;   
+}
+
+.rond {
+    border-radius: 1.250em;
+    border: $new-rond;
+    margin-right: 22em;
+    font-size: 1.275em;
+    background-color: transparent;
+    margin-top: -1.2em;
+}
+.newlink {
+    font-family: $primary-font;
+    color: black;
+    text-decoration: $liens-decoration;
+}
+.allLinks{
+    font-family: $primary-font;
+    color: $liens-color;
+    text-decoration: $liens-decoration;
+    
+}
+.tab {
+    margin-left: 1em;
+}
+
+.ou {
+    font-family: $primary-font;
+    border: $border-tab;
+    float: left;
+    width: 15.625em;
+    height: 4.375em;
+    margin-left: 12.625em;
+    padding-left: 1.875em;
+    text-align: center;
+    padding-top: 0.938em;
+}
+.quand {
+
+    font-family: $primary-font;
+    border: $border-tab;
+    float: left;
+    width: 25.000em;
+    height: 4.375em;
+    padding-left: 1.875em;
+    text-align: center;
+    padding-top: 0.938em;
+}
+.Voyageurs {
+    font-family: $primary-font;
+    float: left;
+    border: $border-tab;
+    width: 17.000em;
+    height: 4.375em;
+    padding-left: 1.875em;
+    text-align: center;
+    padding-top: 15px;
+}
+#inputOu {
+    width: 12.500em;
+    height: 1.875em;
+    margin-bottom: 1.250em;
+    background: white;
+    border: none;
+}
+#inputDestination {
+    margin-left: 1.875em;
+    width: 6.250em;
+    height: 1.875em;
+    margin-bottom: 1.250em;
+    background: white;
+    border: none;
+}
+.tab {
+    margin-top: 4.375em;
+    display: inline-block;
+}
+
+
+.btnSearchDestination {
+    border-radius: 0.625em;
+    border: none;
+    color: white;
+    background-color: #DA4264;
+    width: 6.250em;
+    height: 1.875em;
+    font-family: $primary-font;
+}

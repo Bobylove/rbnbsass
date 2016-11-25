@@ -1,0 +1,35 @@
+.liensHeadLeft {
+	a{
+		color: $lien-login; 
+		text-decoration: $liens-decoration;
+		padding-left: $liens-padding;
+
+	}
+	padding-top: 2em;
+	font-family: $primary-font;
+	margin-left: $liens-margin;
+}
+
+@media screen and ('max-width: 800px') {
+	.liensHeadLeft {
+		display: none;
+	}
+}
+.menuHide {
+	display: none;
+}
+.btnShow {
+	// float: left;
+	// display: none;
+}
+.menuResponsive {
+	float: left;
+	
+}
+
+// @media  screen and ('max-width: 799px') {
+// 	.btnShow {
+// 		display: block;
+// 	}
+	
+// }

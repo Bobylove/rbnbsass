@@ -1,0 +1,67 @@
+.pays {
+  width: 12.500em;
+  height: 1.875em;
+  margin-bottom: 1.250em;
+  color: blue;
+  background: white;
+  border: $input-border;
+
+}
+.regions {
+  width: 12.500em;
+  height: 1.875em;
+  color: blue;
+  background: white;
+  border: $input-border;
+}
+.inputFoot {
+  margin-right: -6.250em;
+  margin-left: 9.375em;
+  float: left;
+}
+.listAll {
+  font-family: $primary-font;
+  list-style: none;
+}
+.list1 {
+  margin-left: 12.500em;
+  margin-right: 6.250em;
+  float: left;
+
+}
+.list2 {
+  margin-right: 6.250em;
+  float: left;
+}
+.list3 {
+  margin-right: 6.250em;
+  float: left;
+}
+.footer {
+  border-top: $line-border;
+  margin-right: 3.750em;
+  margin-top: 3.750em;
+  margin-bottom: 1.250em;
+}
+.footerEnd {
+  border-top: $line-border;
+  margin-right: 3.750em;
+  margin-top: 4.375em;
+  margin-bottom: 1.250em;
+  padding-top: 1.875em;
+
+}
+.contacts {
+  clear: both;
+  text-align: center;
+}
+.logoFooter {
+  margin-left: -13.750em;
+
+}
+.cgu {
+  padding-left:  18.750em;
+}
+.map {
+  margin-left: 18.750em;
+}
